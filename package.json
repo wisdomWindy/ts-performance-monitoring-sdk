@@ -1,0 +1,34 @@
+{
+  "name": "ts-performance-monitoring-sdk",
+  "version": "1.0.0",
+  "description": "基于ts开发的性能监控sdk",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisdomWindy/ts-performance-monitoring-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisdomWindy/ts-performance-monitoring-sdk/issues"
+  },
+  "homepage": "https://github.com/wisdomWindy/ts-performance-monitoring-sdk#readme",
+  "dependencies": {
+    "@microsoft/api-extractor": "^7.33.5",
+    "microbundle": "^0.15.1",
+    "typedoc": "^0.23.19"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "web-vitals": "^3.0.4"
+  }
+}

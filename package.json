@@ -2,14 +2,20 @@
   "name": "ts-performance-monitoring-sdk",
   "version": "1.0.0",
   "description": "基于ts开发的性能监控sdk",
-  "main": "index.js",
+  "source": "src/index.ts",
   "directories": {
     "doc": "docs",
     "example": "examples",
     "test": "tests"
   },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api:init": "api-extractor init",
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +35,7 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
+    "typescript": "^4.8.4",
     "web-vitals": "^3.0.4"
   }
 }
